@@ -1,0 +1,17 @@
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+pydantic>=2.5,<3
+httpx>=0.27
+neo4j>=5.19
+aiokafka==0.10.0
+psycopg2-binary>=2.9
+SQLAlchemy>=2.0
+pgvector>=0.3
+boto3>=1.34
+python-dotenv>=1.0
+strawberry-graphql>=0.205
+websockets>=12
+openai>=1.28
+typing-extensions>=4.8
+langgraph>=0.2.20
+pydantic-settings>=2.5,<3

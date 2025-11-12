@@ -1,0 +1,62 @@
+# ---- OS / Editors ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Python (backend) ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.eggs/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ---- Node / React (frontend) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.parcel-cache/
+**/.vite
+**/node_modules/.vite
+
+# ---- Env & local config ----
+.env
+.env.*
+!.env.example
+
+# ---- Logs & tmp ----
+logs/
+*.log
+tmp/
+coverage/
+coverage.xml
+
+# ---- Docker / local data ----
+**/pgdata/
+**/postgres-data/
+**/neo4j/data/
+**/neo4j/logs/
+**/minio-data/
+**/volumes/
